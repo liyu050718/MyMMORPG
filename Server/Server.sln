@@ -1,0 +1,63 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Shared", "Shared\Shared.csproj", "{51E312DB-066D-4005-96CA-30D44D510C92}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Framework", "Framework\Framework.csproj", "{3E750607-2429-4E2D-91E6-8A4E85F9AB42}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MongoDb", "MongoDb\MongoDb.csproj", "{A0A40733-0E2A-4431-BB01-F098A482FB48}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GameServer", "GameServer\GameServer.csproj", "{86F158A8-E8E8-4675-9CB5-B0E232965B9E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Server", "Server\Server.csproj", "{CF8A5F17-4983-4AE5-9231-E9665ED4A512}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tools", "Tools", "{252D9A35-6DAF-417F-83D4-18645677FCC0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProbeClient", "Tools\ProbeClient\ProbeClient.csproj", "{761ADEFA-CA47-47F1-920C-6DC6AAA29D95}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tests", "Tests\Tests.csproj", "{474878DC-317F-438D-B9CE-6FEE96707953}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{51E312DB-066D-4005-96CA-30D44D510C92}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{51E312DB-066D-4005-96CA-30D44D510C92}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{51E312DB-066D-4005-96CA-30D44D510C92}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{51E312DB-066D-4005-96CA-30D44D510C92}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3E750607-2429-4E2D-91E6-8A4E85F9AB42}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3E750607-2429-4E2D-91E6-8A4E85F9AB42}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3E750607-2429-4E2D-91E6-8A4E85F9AB42}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3E750607-2429-4E2D-91E6-8A4E85F9AB42}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A0A40733-0E2A-4431-BB01-F098A482FB48}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A0A40733-0E2A-4431-BB01-F098A482FB48}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A0A40733-0E2A-4431-BB01-F098A482FB48}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A0A40733-0E2A-4431-BB01-F098A482FB48}.Release|Any CPU.Build.0 = Release|Any CPU
+		{86F158A8-E8E8-4675-9CB5-B0E232965B9E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{86F158A8-E8E8-4675-9CB5-B0E232965B9E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{86F158A8-E8E8-4675-9CB5-B0E232965B9E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{86F158A8-E8E8-4675-9CB5-B0E232965B9E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CF8A5F17-4983-4AE5-9231-E9665ED4A512}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CF8A5F17-4983-4AE5-9231-E9665ED4A512}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CF8A5F17-4983-4AE5-9231-E9665ED4A512}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CF8A5F17-4983-4AE5-9231-E9665ED4A512}.Release|Any CPU.Build.0 = Release|Any CPU
+		{761ADEFA-CA47-47F1-920C-6DC6AAA29D95}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{761ADEFA-CA47-47F1-920C-6DC6AAA29D95}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{761ADEFA-CA47-47F1-920C-6DC6AAA29D95}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{761ADEFA-CA47-47F1-920C-6DC6AAA29D95}.Release|Any CPU.Build.0 = Release|Any CPU
+		{474878DC-317F-438D-B9CE-6FEE96707953}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{474878DC-317F-438D-B9CE-6FEE96707953}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{474878DC-317F-438D-B9CE-6FEE96707953}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{474878DC-317F-438D-B9CE-6FEE96707953}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{761ADEFA-CA47-47F1-920C-6DC6AAA29D95} = {252D9A35-6DAF-417F-83D4-18645677FCC0}
+	EndGlobalSection
+EndGlobal

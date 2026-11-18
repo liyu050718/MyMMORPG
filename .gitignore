@@ -109,3 +109,10 @@ InitTestScene*.unity*
 # OS文件
 .DS_Store
 Thumbs.db
+# MyMMORPG Server
+Server/**/bin/
+Server/**/obj/
+Server/.vs/
+Server/TestResults/
+Server/**/*.user
+Server/**/*.suo
