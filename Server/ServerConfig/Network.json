@@ -1,0 +1,6 @@
+{
+  "Host": "127.0.0.1",
+  "Port": 19222,
+  "MaxClient": 1000,
+  "MaxFrameBytes": 1048576
+}

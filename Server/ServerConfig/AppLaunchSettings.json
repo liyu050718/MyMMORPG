@@ -1,0 +1,6 @@
+{
+  "DBConfig": "./ServerConfig/db.json",
+  "NetworkConfig": "./ServerConfig/Network.json",
+  "LogConfig": "./ServerConfig/LogConfig.json",
+  "SnowflakeWorkerId": 1
+}
