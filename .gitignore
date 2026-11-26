@@ -116,3 +116,4 @@ Server/.vs/
 Server/TestResults/
 Server/**/*.user
 Server/**/*.suo
+doc_build/
